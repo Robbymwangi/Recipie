@@ -65,3 +65,12 @@ button:hover {
 html {
     scroll-behavior: smooth;
 }
+
+.centered{
+    text-align: center;
+}
+
+.red-text {
+    color: #75474a;
+}
+
