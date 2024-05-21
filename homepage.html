@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="img/Homepage/Applesauce.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo"><img src="img/Homepage/Applesauce_transparent.png" alt="Logo"></div>
+            <a href="login.html">
+            <button id="login">Login</button>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="fade-in">
+            <video autoplay muted loop id="hero-video">
+                <source src="img/Homepage/3296399-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div id="hero-content">
+                <h1>This is Applesauce.</h1>
+                <p>Discover the world of cuisines</p>
+            </div>
+        </section>
+
+        <section id="mission" class="fade-in">
+            <h2>Our Mission</h2>
+            <p>Is to create a platform where every chef, at every skill level can show the world their craft, create meaningful connections and enjoy the culinary arts together</p>
+        </section>
+
+        <section id="featured-creators" class="fade-in">
+            <h2>Some of Our Favorite Yappers</h2> 
+            <div class="creators-container">
+                <article class="creator">
+                    <img src="img/Homepage/pexels-kelsey-wilkerson-443975242-15875888.jpg" alt="Creator Image">
+                    <p>Michelle Moore</p>
+                </article>
+                <article class="creator">
+                    <img src="img/Homepage/pexels-nazila-17156548.jpg" alt="Creator Image">
+                    <p>John Doe</p>
+                </article>
+                <article class="creator">
+                    <img src="img/Homepage/pexels-saul-joseph-1457648-2846602.jpg" alt="Creator Image">
+                    <p>Samuel Davids</p>
+                </article>
+            </div>
+
+            <p>(we love you all though ❤)</p>
+        </section>
+
+        <section id="fun-fact">
+            <h2>Fun Fact of the Day</h2>
+            <p id="fun-fact-text">Loading...</p>
+        </section>
+        
+        <section id="register-login" class="fade-in">
+            <h3>Too Many Cooks Spoil the Broth, But Not Ours!</h3>
+            <p>Join the Applesauce community today and share your culinary creations with the world!</p>
+            <a href="signup.html">
+            <button id="register">Register</button>
+            </a>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <div id="footer-links">
+            <a href="#">Security Policies</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div id="social-media">
+            <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div id="copyright">
+            <p>Made with love, The Applesauce Co.</p>
+            <p>&copy; 2024</p>
+        </div>
+    </footer>
+    
+
+    <script src="homepage.js"></script>
+</body>
+</html>
